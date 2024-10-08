@@ -10,7 +10,7 @@ magicButton.addEventListener('click', () => {
     document.getElementById('damla-title').textContent = 'animeci zammuro';
   } else {
     document.getElementsByClassName('left-content')[0].style.backgroundImage =
-      'url("/image-bad.jpeg")';
+      'url("./image-bad.jpeg")';
     document.getElementById('damla').src = 'damla-bad.svg';
     document.getElementById('damla-title').textContent = 'hamuri zammuro';
   }
